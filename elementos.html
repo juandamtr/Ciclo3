@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/elementos.css"
+    <title>Elementos</title>
+</head>
+<body>
+    <div><!--Contenedor padre-->
+        <fieldset><!--Contenedor que marca un borde-->
+            <legend>Elementos</legend><!--escribo en el borde-->
+            <label for="nombre"></label>
+            <!--for =id vincula el input con el label(se pone en negrilla al seleccionarlo)-->
+            Nombre:<input type="text" id="nombre" placeholder="Escriba un nombre" maxlenght="5">
+            </label>
+
+            <hr>
+
+            <!--input numero-->
+            <label for="numero">Edad
+                <input type="number" id="numero" min="18" max="25">
+            </label>
+
+            <hr>
+
+            <label for="pass">Contraseña
+                <input type="password" id="pass">
+            </label>
+
+        </fieldset>
+    </div>
+    
+</body>
+</html>
